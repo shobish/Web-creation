@@ -1,6 +1,6 @@
 html{
 	box-sizing: border-box;
-  	background: #eeeeee;
+  	background:#f0fff0;
   	font-family: 'helvetica neue';
   	font-size: 20px;
   	font-weight: 200;
@@ -58,7 +58,7 @@ nav a{
     display: inline-block;
     transition:all 0.5s;
     color: white;
-    display: inline-block;
+   
 }
 nav a:hover{
 	color: green;
@@ -130,7 +130,7 @@ nav a:hover{
 .rooms{
 	align-items:center;
 	justify-content:center;
-	margin-top: 300px;
+	margin-top: 100px;
 	font-size: 20px;
 	font-style: italic;
 	text-align: justify;
@@ -141,7 +141,25 @@ nav a:hover{
 hr{
 	width: 500px;
 	align-items:center;
+	margin-top: 100px;
 }
+.room-container{
+	font-family: fantasy;
+	margin-right: 300px;
+	margin-left: 300px;
+	justify-content:center;
+	align-items:center;
+	display: block;
+	text-align: center;
+
+}
+.room-container div {
+	
+	justify-content:center;
+	align-items:center;
+	
+}
+
 .col p{
 	max-width: 1200px;
 	padding-left: 20px;
@@ -167,17 +185,103 @@ hr{
 	height: 300px;
 	border-radius: 5px;
 }
+.fecility{
+	margin-top: 50px;
+	background: #ffe4e1;
+
+}
+
+.fecility-container{
+	display: flex;
+	justify-content:center;
+	text-align: center;
+	align-items:center;
+	flex:1;
+	height: 300px;
+
+}
+.fecility h1{
+	padding-top: 10px;
+	
+	text-align: center;
+
+}
+.pic{
+	display: flex;
+	justify-content:center;
+	text-align: center;
+	align-items:center;
+	flex:1;
+
+	
+}
+.logo{
+	border-radius:50%;
+	height:120px ;
+	width: 120px;
+	background: white;
 
 
+}
+.logo img{
+	padding-top: 15px;
+}
+.tv img:hover{
+	transform:scale(1);
 
+}
+.logo:hover{
+	transform:scale(1.1);
+	transition:all 0.5s;
+	
 
+}
+.data{
+	height: 300px;
+	width: 100%;
+	background: lightgreen;
+	display: flex;
+	margin:auto 0;
 
+	flex:1;
+	justify-content:center;
+}
+.logg{
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	flex:1;
+	text-decoration: none;
+}
 
+.logg ul{
+	list-style-type: none;
+	word-spacing: 2px;
 
+}
+.add a{
+	text-decoration: none;
+	color: black
+}
 
+.foot{
+	height: 50px;
+	background: gray;
+}
+.lastone{
+	display: flex;
+	flex:1;
+	justify-content:center;
+	align-items:center;
+}
+.foo{
+	text-align: center;
+	display: flex;
+	justify-content:left;
+	align-items:center;
+	flex:1;
 
-
-
+}
 
 
 
