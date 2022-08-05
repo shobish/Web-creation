@@ -194,72 +194,7 @@ hr{
 	align-items:center;
 	margin-top: 100px;
 }
-.room-container{
-	font-family:sans-serif;
-	margin-right: 300px;
-	margin-left: 300px;
-	justify-content:center;
-	align-items:center;
-	display: block;
-	text-align: center;
 
-}
-.room-container div {
-	
-	justify-content:center;
-	align-items:center;
-	
-}
-
-.col p{
-	font-family: new;
-	font-size: 30px;
-	font-weight: 300;
-	max-width: 1000px;
-	padding-left: 20px;
-}
-.rooms h1{
-	font-weight: 500;
-	font-size: 150px;
-	text-align: center;
-	align-items:center;
-	justify-content:center;
-}
-.col{
-	align-items:center;
-	text-align: justify;
-	justify-content:center;
-	display: flex;
-	margin-left: 20px;
-	margin-top: 20px;
-	align-items:center;
-}
-.col img{
-	max-width: 400px;
-	height: 300px;
-	border-radius: 5px;
-}
-.fecility{
-	margin-top: 50px;
-	background: #ffe4e1;
-
-}
-
-.fecilitys-container{
-	display: flex;
-	justify-content:center;
-	text-align: center;
-	align-items:center;
-	flex:1;
-	height: 300px;
-
-}
-
-.fecility h1{
-	padding-top: 10px;
-	text-align: center;
-
-}
 .pic{
 	display: flex;
 	justify-content:center;
@@ -269,35 +204,7 @@ hr{
 
 	
 }
-.pic p{
-	padding-left: 20px;
-	font-family: new;
-	text-transform: uppercase;
-	font-size: 20px;
-	font-weight: 200;
-}
-.logo{
-	border-radius:50%;
-	height:120px ;
-	width: 120px;
-	background: white;
 
-
-}
-.logo img{
-	padding-top: 15px;
-}
-
-.tv img:hover{
-	transform:scale(1);
-
-}
-.logo:hover{
-	transform:scale(1.1);
-	transition:all 0.5s;
-	
-
-}
 .data{
 	height: 250px;
 	width: 100%;

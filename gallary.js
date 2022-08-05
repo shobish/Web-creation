@@ -5,4 +5,24 @@ setInterval(function() {
 	slider.src=images[random]
 	// body...
 },2000);
-console.log('dfsdf');
+
+
+
+const navfix=document.querySelector('.Navbar');
+const topOfNav=navfix.offsetTop;
+
+
+function fixing() {
+	if (scrollY>=topOfNav) {
+		document.body.style.paddingTop=navfix.offsetHeight+'px';
+		document.body.classList.add('fixed-nav');
+	}else{
+		document.body.classList.remove('fixed-nav');
+
+	}
+	// body...
+}
+window.addEventListener('scroll',fixing);
+
+
+
