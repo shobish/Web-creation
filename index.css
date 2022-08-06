@@ -116,6 +116,40 @@ nav a:hover{
 	transform: scale(1.1);
 	
 }
+.sub{
+	display: none;
+
+}
+.roommenu{
+	display: none;
+}
+.sub ul li:hover .roommenu{
+	display: block;
+	width: 250px;
+	position: absolute;
+	background: black;
+	margin-top:250px ;
+	margin-left: -400px; 
+	transition: all 0.5s;
+}
+.sub ul li:hover .roommenu ul{
+	display: block;
+	margin-top: 20px;
+}
+  nav ul li:hover .sub  {
+	display: block;
+	position: absolute;
+	background: black;
+	margin-top:320px ;
+	margin-left: 105px; 
+	transition: all 0.5s;
+
+}
+nav ul li:hover .sub ul {
+	display: block;
+	margin-top: 20px;
+}
+
 
 .container a{
 	text-decoration: none;
