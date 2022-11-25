@@ -1,0 +1,43 @@
+.Banner{
+   
+    background-size: cover;
+    color: white;
+
+
+}
+.wrapper{
+    padding-top: 180px;
+    margin-left: 80px;
+    max-height:39rem;
+    
+}
+
+button{
+    
+    border: none;
+    outline: none;    
+    background-color: rgba(51,51,51,.5);
+    padding:5px;
+    margin-left: 5px;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    cursor: pointer;
+
+    
+    
+    
+}
+button:hover{
+    background-color: aqua;
+}
+
+.dis{
+    padding-top: 12px;
+    max-width: 20rem;
+    line-height: 1.3;
+}
+.fade{
+    padding-top: 200px;
+    height: 5rem;
+    background-image: linear-gradient(180deg,transparent, rgba(37,37,37,.61),#111);
+}

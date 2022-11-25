@@ -1,0 +1,30 @@
+h2{
+    margin-left: 12px;
+}
+.posters{
+    height: 250px;
+    display: flex;
+    margin-right: 15px;
+    overflow-y: scroll;
+    margin-left: 15px;
+}
+.poster{
+    cursor: pointer;
+    margin-right: 10px;
+}
+.posters::-webkit-scrollbar{
+    display: none;
+}
+.smallPoster{
+    cursor: pointer;
+    height: 150px;
+    margin-left: 10px;
+    
+
+}
+.poster:hover{
+    transform: scale(1.1);
+}
+.smallPoster:hover{
+    transform: scale(1.2);
+}
